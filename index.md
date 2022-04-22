@@ -5,7 +5,7 @@ date: 2017-11-22T23:00:00.000+00:00
 page_sections:
   - template: navigation-header-w-button
     block: header-2
-    logo: "/uploads/2018/06/21/portfolio_lg.jpg"
+    logo: "/uploads/2018/06/21/portfolio_lg.JPG"
     navigation:
       - link: "/"
         link_text: Intro
@@ -83,7 +83,7 @@ page_sections:
 
         </p>
     media:
-      image: "/uploads/2018/06/21/project.png"
+      image: "/uploads/2018/06/21/Project.png"
       alt_text: Project
   - template: 1-column-text
     block: one-column-1
@@ -114,5 +114,10 @@ page_sections:
           <strong>Video content</strong> - 예전에 너무 잘 먹음 -> 유튜브 contents -> over 22k view </p>
   - template: simple-footer
     block: footer-1
+<<<<<<< HEAD
     content: <figcaption>Contact<br>yunjiyeong0106@gmail.com</figcaption>
 ---
+=======
+    content: Made with ❤︎ in Canada
+---
+>>>>>>> 7b8afd1d28876e8c8c1b8af35640350f6c44b85a
