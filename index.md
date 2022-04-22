@@ -5,7 +5,7 @@ date: 2017-11-22T23:00:00.000+00:00
 page_sections:
   - template: navigation-header-w-button
     block: header-2
-    logo: "/uploads/2018/06/21/portfolio_lg.jpg"
+    logo: "/uploads/2018/06/21/portfolio_lg.JPG"
     navigation:
       - link: "/"
         link_text: Intro
@@ -83,7 +83,7 @@ page_sections:
 
         </p>
     media:
-      image: "/uploads/2018/06/21/project.png"
+      image: "/uploads/2018/06/21/roject.png"
       alt_text: Project
   - template: 1-column-text
     block: one-column-1
