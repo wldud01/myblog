@@ -114,10 +114,5 @@ page_sections:
           <strong>Video content</strong> - 예전에 너무 잘 먹음 -> 유튜브 contents -> over 22k view </p>
   - template: simple-footer
     block: footer-1
-<<<<<<< HEAD
     content: <figcaption>Contact<br>yunjiyeong0106@gmail.com</figcaption>
 ---
-=======
-    content: Made with ❤︎ in Canada
----
->>>>>>> 7b8afd1d28876e8c8c1b8af35640350f6c44b85a
