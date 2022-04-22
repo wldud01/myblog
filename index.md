@@ -97,7 +97,7 @@ page_sections:
         </p>
   - template: full-width-media-element
     block: media-1
-    image: "/uploads/2018/06/21/bodyprofile.png"
+    image: "/uploads/2018/06/21/interest.png"
 
     caption: 
      <figure><img/></figure>
