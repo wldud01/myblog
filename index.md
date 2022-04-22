@@ -9,14 +9,14 @@ page_sections:
     navigation:
       - link: "/"
         link_text: Intro
-      - link: "#swap"
+      - link: "#profile"
         link_text: Profile
-      - link: "#customize"
+      - link: "#project"
         link_text: Project
-      - link: "#responsive"
-        link_text: Interest
-      - link: "#blocks"
+      - link: "#fork"
         link_text: Fork
+      - link: "#interest"
+        link_text: Interest
     cta:
       url: https://github.com/wldud01
       button_text: My Git
@@ -68,27 +68,38 @@ page_sections:
     media_alignment: Right
     slug: Project
     headline:
-      <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
-      edits throughout your new site</span>
+     <strong>Project</strong><br>
+          <span class="light">&nbsp;&nbsp;&nbsp;" My Team project "</span></span>
     content:
-      Each block comes with custom Front Matter that can be edited in
-      Forestry CMS.
+      <p><br>
+          <ol>
+            <li>Book page - 가장 저렴한 가격의 책을 찾아주는 사이트</li>
+            <ul><small><li>Position  기획 & UX/UI & front-end <br> React를 이용한 첫 프로젝트 / 긴 로딩시간이 조금 아쉬움<br>
+          <a href="https://github.com/wldud01/OpensourceClass/tree/main/prev_book_page">here</a></li></small></ul>
+            <li>AI - 진행중 ( Deeplearning )</li>
+            <li>Dash board web - 진행중( Spring boot )</li>
+            <li>Meta bus - 진행중 ( Unity ) </li>
+          </ol>
+
+        </p>
     media:
-      image: "/uploads/2018/06/21/edit.gif"
-      alt_text: Customize Blocks
+      image: "/uploads/2018/06/21/project.png"
+      alt_text: Project
   - template: 1-column-text
     block: one-column-1
-    slug: Interest
-    headline: 16 Fully Responsive Design Blocks
-    content: |
-      The Design Blocks can be used without Forestry but to harness the power
-      of Blocks we recommend using <a href="https://forestry.io">Forestry</a>. Once the site is imported you can immediately
-      create new sites and make them fully customizable.
+    slug: Fork
+    headline: <h3 id ="fork_title"> < Fork - I'm interested in > </h3>
+    content: 
+
+      <p id ="fork_text" >
+          AI - 프로젝트를 위해 공부 해야하는 분야&nbsp;&nbsp;&nbsp;<a href="https://github.com/wldud01/pymldg-rev">Machine learning guide</a><br>
+          Spring boot - 현재 공부 중인 분야&nbsp;&nbsp;&nbsp;<a href="https://github.com/wldud01/spring-boot">Spring boot guide</a>
+        </p>
   - template: full-width-media-element
     block: media-1
     image: "/uploads/2018/06/21/theme.png"
     caption: All Available Blocks
-    slug: Fork
+    slug: Interest
   - template: detail-content
     block: text-1
     headline: Steps to Build a Site!

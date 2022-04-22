@@ -11,18 +11,24 @@
     <meta name="description" content="ubuild-jekyll is a Jekyll theme desgined to work with Forestry's Blocks feature. This theme provides a set of page-level components and a pre-configured Forestry Blocks UI that will empower content editors to construct their own webpages.">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/forestryio/ubuild-blocks@1.0.0/dist/css/ubuild.css"/>
     <style>
-    .block.block-hero-2{background:rgb(245, 245, 245); color:black; text-align: left;}
-    .column.text ul{font-size: 13pt; width:200px;}
+         .block.block-hero-2{background:rgb(245, 245, 245); color:black; text-align: left;}
+    .column.text ul{font-size: 13pt; width:350px;}
+    .column.text ul li{margin-bottom: 5pt;}
     .progress-bar {
     width: 100%;
     height: 15px;
-    background-color: #dedede;}
+    background-color: #efefef;}
 
-    .progress-bar .Hprogress { width: 60%;  height: 15px; background-color: #ff844f;}
-    .progress-bar .Cprogress { width: 60%;  height: 15px; background-color: #ff844f;}
-    .progress-bar .Sprogress { width: 30%;  height: 15px; background-color: #ff844f;}
-    .progress-bar .Jprogress { width: 40%;  height: 15px; background-color: #ff844f;}
-    .progress-bar .Rprogress { width: 20%;  height: 15px; background-color: #ff844f;}
+    .progress-bar .Hprogress { width: 60%;  height: 15px; background-color: #ffeb7d;}
+    .progress-bar .Cprogress { width: 60%;  height: 15px; background-color: #ffeb7d;}
+    .progress-bar .Sprogress { width: 30%;  height: 15px; background-color: #ffeb7d;}
+    .progress-bar .Jprogress { width: 40%;  height: 15px; background-color: #ffeb7d;}
+    .progress-bar .Rprogress { width: 20%;  height: 15px; background-color: #ffeb7d;}
+    #fork{background: #deeaf3;}
+    ol li{margin-bottom: 10pt; width:400px;}
+    #fork_title{font-size: 17pt;}
+    #fork_text{font-size: 12pt; line-height: 25pt; font-style: italic;}
+    a{text-decoration: none;} 
     </style>
   </head>
   <body>
@@ -41,13 +47,13 @@
         
         <li class="nav-item active"><a href="/myblog/">Intro</a></li>
         
-        <li class="nav-item "><a href="/myblog/#swap">Profile</a></li>
+        <li class="nav-item "><a href="/myblog/#profile">Profile</a></li>
         
-        <li class="nav-item "><a href="/myblog/#customize">Project</a></li>
+        <li class="nav-item "><a href="/myblog/#project">Project</a></li>
         
-        <li class="nav-item "><a href="/myblog/#responsive">Interest</a></li>
+        <li class="nav-item "><a href="/myblog/#fork">Fork</a></li>
         
-        <li class="nav-item "><a href="/myblog/#blocks">Fork</a></li>
+        <li class="nav-item "><a href="/myblog/#interest">Interest</a></li>
         
     </ul>
     <a class="button primary small block-header-2--cta" href="https://github.com/wldud01">My Git</a>
@@ -100,11 +106,12 @@ style="background-image: url('/myblog/uploads/2018/06/21/background.png')"
   <div class="container">
     <div class="columns">
       <div class="column text">
-        <h2><span class="light"><strong>Customize Blocks</strong><span class="light">&nbsp;to make quick edits throughout your new site</span></span></h2>
-        <p>Each block comes with custom Front Matter that can be edited in Forestry CMS.</p>
+        <h2><span class="light"><strong>Project</strong><br> <span class="light">&nbsp;&nbsp;&nbsp;" My Team project "</span></span></span></h2>
+        <p><p><br> <ol> <li>Book page - 가장 저렴한 가격의 책을 찾아주는 사이트</li> <ul><small><li>Position  기획 & UX/UI & front-end <br> React를 이용한 첫 프로젝트 / 긴 로딩시간이 조금 아쉬움<br> <a href="https://github.com/wldud01/OpensourceClass/tree/main/prev_book_page">here</a></li></small></ul> <li>AI - 진행중 ( Deeplearning )</li> <li>Dash board web - 진행중( Spring boot )</li> <li>Meta bus - 진행중 ( Unity ) </li> </ol>
+</p></p>
       </div>
       <div class="column media">
-        <img src="/myblog/uploads/2018/06/21/edit.gif" alt="Customize Blocks" loading="lazy">
+        <img src="/myblog/uploads/2018/06/21/project.png" alt="Project" loading="lazy">
       </div>
     </div>
   </div>
@@ -112,22 +119,19 @@ style="background-image: url('/myblog/uploads/2018/06/21/background.png')"
 
 
 
-<section id="interest" class="block block-one-column-1">
+<section id="fork" class="block block-one-column-1">
   <div class="container">
     <div class="columns">
       <div class="column">
-        <h3>16 Fully Responsive Design Blocks</h3>
-        <p>The Design Blocks can be used without Forestry but to harness the power
-of Blocks we recommend using <a href="https://forestry.io">Forestry</a>. Once the site is imported you can immediately
-create new sites and make them fully customizable.
-</p>
+        <h3><h3 id ="fork_title"> < Fork - I'm interested in > </h3></h3>
+        <p><p id ="fork_text" > AI - 프로젝트를 위해 공부 해야하는 분야&nbsp;&nbsp;&nbsp;<a href="https://github.com/wldud01/pymldg-rev">Machine learning guide</a><br> Spring boot - 현재 공부 중인 분야&nbsp;&nbsp;&nbsp;<a href="https://github.com/wldud01/spring-boot">Spring boot guide</a> </p></p>
       </div>
     </div>
   </div>
 </section>
 
 
-<section id="fork" class="block block-media-1">
+<section id="interest" class="block block-media-1">
   <div class="container">
     <figure>
       <img src="/myblog/uploads/2018/06/21/theme.png" alt="All Available Blocks" loading="lazy">
