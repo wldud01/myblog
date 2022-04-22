@@ -1,6 +1,6 @@
 ---
 main:
 - identifier: home
-  url: "/"
+  url: "/myblog"
   weight: 1
   title: Home

@@ -6,7 +6,7 @@ description: >-
   This theme provides a set of page-level components and a pre-configured Forestry Blocks UI
   that will empower content editors to construct their own webpages.
 baseurl: "/myblog" # the subpath of your site, e.g. /blog
-url: "https://github.com/wldud01" # your site's origin, e.g. https://forestry.io
+url: "https://wldud01.github.io" # your site's origin, e.g. https://forestry.io
 
 # Build settings
 defaults:
