@@ -5,11 +5,7 @@ date: 2017-11-22T23:00:00.000+00:00
 page_sections:
   - template: navigation-header-w-button
     block: header-2
-<<<<<<< HEAD
     logo: "/uploads/2018/06/21/portfolio_lg.jpg"
-=======
-    logo: "/uploads/2018/06/21/portfolio.lg.jpg"
->>>>>>> a0e77a4cb4bc12b473ae3b5a3552488f309c5392
     navigation:
       - link: "/"
         link_text: Intro
@@ -26,11 +22,7 @@ page_sections:
       button_text: My Git
   - template: hero-banner-w-image
     block: hero-2
-<<<<<<< HEAD
     slug: Intro
-=======
-    slug: features
->>>>>>> a0e77a4cb4bc12b473ae3b5a3552488f309c5392
     headline: Hello! <br><strong><small>I am</small><br>" Creator "</strong>
     content:
       Creator is a someone who creates new contents.<br>
@@ -51,19 +43,11 @@ page_sections:
      <strong>My Profile<span class="light">&nbsp;</span></strong><br>
             <span class="light">&nbsp;&nbsp;&nbsp;&nbsp; " Who am I? "</span>
     content:
-<<<<<<< HEAD
          <p>
             <ul>
               <li> Name - 윤지영 </li>
               <li> Major - 컴퓨터공학전공</li>
               <li> Grade - 3</li>
-=======
-      <p>
-            <ul>
-              <li>Name : 윤지영</li>
-              <li>Major : 컴퓨터공학전공</li>
-              <li>Grade : 3</li>
->>>>>>> a0e77a4cb4bc12b473ae3b5a3552488f309c5392
             </ul><br>
           </p><hr>
           <p><br>
