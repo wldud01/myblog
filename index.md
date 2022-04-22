@@ -29,7 +29,7 @@ page_sections:
       I want to complete my own contents in my field.
     cta:
       enabled: true
-      url: https://github.com/wldud01
+      url: https://wldud01.github.io/myblog/#profile
       button_text: "Start "
     image:
       image: "/uploads/2018/06/21/Intro_p2.png"
