@@ -83,7 +83,7 @@ page_sections:
 
         </p>
     media:
-      image: "/uploads/2018/06/21/roject.png"
+      image: "/uploads/2018/06/21/Project.png"
       alt_text: Project
   - template: 1-column-text
     block: one-column-1
