@@ -5,7 +5,7 @@ date: 2017-11-22T23:00:00.000+00:00
 page_sections:
   - template: navigation-header-w-button
     block: header-2
-    logo: "/uploads/2018/06/21/forestry-full.svg"
+    logo: "/uploads/2018/06/21/portfolio.lg.jpg"
     navigation:
       - link: "/"
         link_text: Ubuild
@@ -23,28 +23,43 @@ page_sections:
   - template: hero-banner-w-image
     block: hero-2
     slug: features
-    headline: uBuild <br><strong>design blocks</strong>
+    headline: Hello! <br><strong><small>I am</small><br>" Creator "</strong>
     content:
-      The tool that allows you to build beautiful sites<br>all inside Forestry's
-      content manager.
+      Creator is a someone who creates new contents.<br>
+      I want to complete my own contents in my field.
     cta:
       enabled: true
-      url: https://github.com/forestryio/ubuild-jekyll
-      button_text: "See on GitHub "
+      url: https://github.com/wldud01
+      button_text: "Start "
     image:
-      image: "/uploads/2018/06/21/product-shot-1.png"
+      image: "/uploads/2018/06/21/Intro_p2.png"
       alt_text: Product Shot
-    background_image: "/uploads/2018/06/21/hero-2-bg.png"
+    background_image: "/uploads/2018/06/21/background.png"
   - template: content-feature
     block: feature-1
     media_alignment: Left
     slug: swap
     headline:
-      <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
-      class="light">the Blocks to create sites quickly</span>
+     <strong>My Profile<span class="light">&nbsp;</span></strong><br>
+            <span class="light">&nbsp;&nbsp;&nbsp;&nbsp; " Who am I? "</span>
     content:
-      Quickly assemble and create custom sites with 16 design blocks for seven
-      different sections.
+      <p>
+            <ul>
+              <li>Name : 윤지영</li>
+              <li>Major : 컴퓨터공학전공</li>
+              <li>Grade : 3</li>
+            </ul><br>
+          </p><hr>
+          <p><br>
+            <h2><span class="light"><strong>Language Experienced<span class="light">&nbsp;                    </span></strong><br></h2>
+            <ul><br>
+              <li>Html</li><div class="progress-bar"><div class="Hprogress"></div></div>
+              <li>CSS</li><div class="progress-bar"><div class="Cprogress"></div></div>
+              <li>Javascript</li><div class="progress-bar"><div class="Sprogress"></div></div>
+              <li>Java</li><div class="progress-bar"><div class="Jprogress"></div></div>
+              <li>React</li><div class="progress-bar"><div class="Rprogress"></div></div>
+            </ul><br>
+          </p>
     media:
       image: "/uploads/2018/06/21/blocks-split.png"
       alt_text: uBuild Blocks Mock-Up
